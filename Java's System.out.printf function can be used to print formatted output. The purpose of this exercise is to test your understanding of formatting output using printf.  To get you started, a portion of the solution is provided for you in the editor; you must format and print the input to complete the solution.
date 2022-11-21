@@ -10,7 +10,7 @@ public class Solution {
                 int x=sc.nextInt();
                 //Complete this line
                 
-                System.out.format("%-15s%03d%n",s1,x);
+                System.out.format("%-15s%03d%n",s1,x);// %- ->indicates left aligned, 15s -> 15spaces from left , 03d -> 3digits if three digits not presnt then append 0 in front of the tolad no of digits present
             }
             System.out.println("================================");
 
