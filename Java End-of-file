@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner s=new Scanner(System.in);
+        String a="";
+        int counter=0;
+        while(s.hasNext())       //SCANS THE FILE UNTIL END OF FILE
+        {
+         a=s.nextLine();
+         counter=counter+1;
+          System.out.println(counter+" "+a);
+        
+        }
+        
+        s.close();
+        
+        
+    }
+}
